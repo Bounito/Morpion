@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<!-- saved from url=(0030)http://svaret.free.fr/Morpion/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>🟥🟦TicTacToe🤖</title>
+	
+	<link href="./🟥🟦TicTacToe🤖_files/forme.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+	<center>
+	<div class="container">
+		<div id="titre">
+			<h2>🟥🟦TicTacToe🤖</h2>
+		</div>
+		<div id="contour">	
+			<div class="gameGrid" id="gameGrid">
+				<div id="Case1" class="bloc" onclick="fctClick(1,this)"></div>
+				<div id="Case2" class="bloc" onclick="fctClick(2,this)"></div>
+				<div id="Case3" class="bloc" onclick="fctClick(3,this)"></div>
+				<div id="Case4" class="bloc" onclick="fctClick(4,this)"></div>
+				<div id="Case5" class="bloc" onclick="fctClick(5,this)"></div>
+				<div id="Case6" class="bloc" onclick="fctClick(6,this)"></div>
+				<div id="Case7" class="bloc" onclick="fctClick(7,this)"></div>
+				<div id="Case8" class="bloc" onclick="fctClick(8,this)"></div>
+				<div id="Case9" class="bloc" onclick="fctClick(9,this)"></div>
+			</div>
+			<div id="bande">
+				<p id="aquiletour">Au tour du joueur Bleu !</p>
+				<table width="100%"><tbody><tr><td><p id="scorejoueurbleu">bleu: 0</p></td>
+				<td><p id="scorejoueurrouge">rouge: 0</p></td></tr></tbody></table>
+				<button id="newGameBtn" onclick="clearGrid()">Nettoyer grille</button>
+				<button id="newGameBtn" onclick="reinit()">Nouvelle partie</button>
+			</div>
+			<div class="robotLog">
+				<small><p id="robotLog">🤖 : Prêt à te battre !</p></small>
+			</div>
+		</div>
+	</div>		
+	<script src="./🟥🟦TicTacToe🤖_files/java.js.téléchargement"></script>
+	</center>
+
+</body></html>
